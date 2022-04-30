@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet"> 
+</head>
+<style>
+
+
+body{
+    background-color: blueviolet;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px
+}
+
+header{
+    font-size: 50px;
+}
+form{
+    align-content: center;
+}
+    
+.submit {
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+    height: max-content;
+}
+.submit:hover {
+    background-color: #494cdd;
+}
+textarea {
+    height: 50px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+
+</style>
+
+<body>
+    <header>Contact me!</header>
+    <form>
+        <input name="name" placeholder="Name" type="text" required /><br/>
+        <input name="email" placeholder="Email" type="email" required /><br/>
+        <textarea name="message" placeholder="Message" required ></textarea>
+        <input type="submit" value="SEND" class="submit" />
+    </form>
+</body>
+</html>
